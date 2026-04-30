@@ -1,0 +1,54 @@
+{
+  "baseUrl": "https://demowebshop.tricentis.com/",
+  "generatedUserData": [
+    {
+      "firstName": "jhon",
+      "lastName": "tom",
+      "email": "testuser1805@test.com",
+      "password": "Test@1805",
+      "confirmpassword": "Test@1805"
+    },
+    {
+      "firstName": "Valerie",
+      "lastName": "Rosenbaum",
+      "email": "valerie.rosenbaum78376@gmail.com",
+      "password": "Test@78376",
+      "confirmpassword": "Test@78376"
+    },
+    {
+      "firstName": "Reyna",
+      "lastName": "Morar",
+      "email": "reyna.morar17636@gmail.com",
+      "password": "Test@17636",
+      "confirmpassword": "Test@17636"
+    },
+    {
+      "firstName": "Doris",
+      "lastName": "Feeney",
+      "email": "doris.feeney56623@gmail.com",
+      "password": "Test@56623",
+      "confirmpassword": "Test@56623"
+    },
+    {
+      "firstName": "Benny",
+      "lastName": "Wuckert",
+      "email": "benny.wuckert47404@gmail.com",
+      "password": "Test@47404",
+      "confirmpassword": "Test@47404"
+    },
+    {
+      "firstName": "Brooke",
+      "lastName": "Stracke",
+      "email": "brooke.stracke72899@gmail.com",
+      "password": "Test@72899",
+      "confirmpassword": "Test@72899"
+    },
+    {
+      "firstName": "Ricky",
+      "lastName": "Farrell",
+      "email": "ricky.farrell66317@gmail.com",
+      "password": "Test@66317",
+      "confirmpassword": "Test@66317"
+    }
+  ]
+}
