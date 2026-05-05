@@ -120,7 +120,7 @@ test("TC014 Product Comparison", async ({ appAction }) => {
 });
 
 
-test.only("TC015 Complete Checkout", async ({ appAction }) => {
+test("TC015 Complete Checkout", async ({ appAction }) => {
   await appAction.login.Click_On_LoginLink();
   await appAction.login.login_details(LoginData.Users.ValidUser);
   await appAction.login.Click_On_LoginButton();
@@ -130,6 +130,8 @@ test.only("TC015 Complete Checkout", async ({ appAction }) => {
   await appAction.cart.openCart();
   await appAction.checkout.acceptTerms();
   await appAction.checkout.clickCheckout();
+  await appAction.checkout.SelectBillingAddressDropdown();
   await appAction.checkout.fillBillingDetails();
+  await appAction.checkout.completeCheckoutFlow();
   await appAction.checkout.verifyOrderSuccess();
 });
