@@ -1,6 +1,6 @@
 import { expect } from "@playwright/test";
-import { LoginPage } from "../Pages/2_loginpage ";
-import LoginData from "../../src/Testdata/logindata.json";
+import { LoginPage } from "../Pages/loginpage ";
+import LoginData from "../Testdata/logindata.json";
 
 type LoginData = {
     email: string;

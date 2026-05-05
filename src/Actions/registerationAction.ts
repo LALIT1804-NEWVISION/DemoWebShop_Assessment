@@ -1,8 +1,8 @@
 import { Page, expect } from "@playwright/test";
 import { faker } from "@faker-js/faker";
 import { writeFileSync } from "fs";
-import { RegisterationPage } from "../Pages/1_registerationpage";
-import RegisterationData from "../../src/Testdata/registerationdata.json";
+import { RegisterationPage } from "../Pages/registerationpage";
+import RegisterationData from "../Testdata/registerationdata.json";
 
 
 type Data = {

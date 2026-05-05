@@ -7,6 +7,13 @@
       "email": "ricky.farrell66317@gmail.com",
       "password": "Test@66317",
       "confirmpassword": "Test@66317"
+    },
+    {
+      "firstName": "Mckenzie",
+      "lastName": "Schimmel",
+      "email": "mckenzie.schimmel99598@gmail.com",
+      "password": "Test@99598",
+      "confirmpassword": "Test@99598"
     }
   ]
 }
