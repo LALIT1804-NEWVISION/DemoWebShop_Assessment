@@ -23,8 +23,6 @@ export class CheckoutAction {
     await this.checkoutPage.phoneInput.fill("1234567890");
   }
 
-  
-
   async verifyOrderSuccess() {
     await expect(
       this.checkoutPage.page.locator(".section.order-completed")).toContainText("Thank you");
