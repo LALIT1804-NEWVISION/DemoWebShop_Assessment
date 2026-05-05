@@ -23,13 +23,7 @@ export class CheckoutAction {
     await this.checkoutPage.phoneInput.fill("1234567890");
   }
 
-  async completeCheckoutFlow() {
-    await this.checkoutPage.billingNextBtn.click();
-    await this.checkoutPage.shippingNextBtn.click();
-    await this.checkoutPage.paymentMethodNextBtn.click();
-    await this.checkoutPage.paymentInfoNextBtn.click();
-    await this.checkoutPage.confirmOrderBtn.click();
-  }
+  
 
   async verifyOrderSuccess() {
     await expect(

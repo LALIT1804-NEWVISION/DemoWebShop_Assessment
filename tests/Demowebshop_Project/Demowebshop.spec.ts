@@ -131,6 +131,5 @@ test.only("TC015 Complete Checkout", async ({ appAction }) => {
   await appAction.checkout.acceptTerms();
   await appAction.checkout.clickCheckout();
   await appAction.checkout.fillBillingDetails();
-  await appAction.checkout.completeCheckoutFlow();
   await appAction.checkout.verifyOrderSuccess();
 });
