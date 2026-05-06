@@ -21,6 +21,13 @@
       "email": "loma.oberbrunner11223@gmail.com",
       "password": "Test@11223",
       "confirmpassword": "Test@11223"
+    },
+    {
+      "firstName": "Micah",
+      "lastName": "Abshire",
+      "email": "micah.abshire81049@gmail.com",
+      "password": "Test@81049",
+      "confirmpassword": "Test@81049"
     }
   ]
 }
