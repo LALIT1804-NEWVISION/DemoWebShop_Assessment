@@ -35,6 +35,20 @@
       "email": "kay.murray49300@gmail.com",
       "password": "Test@49300",
       "confirmpassword": "Test@49300"
+    },
+    {
+      "firstName": "Eliza",
+      "lastName": "Cartwright-Witting",
+      "email": "eliza.cartwright-witting49280@gmail.com",
+      "password": "Test@49280",
+      "confirmpassword": "Test@49280"
+    },
+    {
+      "firstName": "Isabel",
+      "lastName": "Bogisich",
+      "email": "isabel.bogisich31086@gmail.com",
+      "password": "Test@31086",
+      "confirmpassword": "Test@31086"
     }
   ]
 }
