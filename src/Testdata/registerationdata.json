@@ -28,6 +28,13 @@
       "email": "micah.abshire81049@gmail.com",
       "password": "Test@81049",
       "confirmpassword": "Test@81049"
+    },
+    {
+      "firstName": "Kay",
+      "lastName": "Murray",
+      "email": "kay.murray49300@gmail.com",
+      "password": "Test@49300",
+      "confirmpassword": "Test@49300"
     }
   ]
 }
