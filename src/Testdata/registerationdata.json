@@ -2,53 +2,11 @@
   "baseUrl": "https://demowebshop.tricentis.com/",
   "generatedUserData": [
     {
-      "firstName": "Ricky",
-      "lastName": "Farrell",
-      "email": "ricky.farrell66317@gmail.com",
-      "password": "Test@66317",
-      "confirmpassword": "Test@66317"
-    },
-    {
-      "firstName": "Andrew",
-      "lastName": "Thompson",
-      "email": "andrew.thompson54860@gmail.com",
-      "password": "Test@54860",
-      "confirmpassword": "Test@54860"
-    },
-    {
-      "firstName": "Loma",
-      "lastName": "Oberbrunner",
-      "email": "loma.oberbrunner11223@gmail.com",
-      "password": "Test@11223",
-      "confirmpassword": "Test@11223"
-    },
-    {
-      "firstName": "Micah",
-      "lastName": "Abshire",
-      "email": "micah.abshire81049@gmail.com",
-      "password": "Test@81049",
-      "confirmpassword": "Test@81049"
-    },
-    {
-      "firstName": "Kay",
-      "lastName": "Murray",
-      "email": "kay.murray49300@gmail.com",
-      "password": "Test@49300",
-      "confirmpassword": "Test@49300"
-    },
-    {
-      "firstName": "Eliza",
-      "lastName": "Cartwright-Witting",
-      "email": "eliza.cartwright-witting49280@gmail.com",
-      "password": "Test@49280",
-      "confirmpassword": "Test@49280"
-    },
-    {
-      "firstName": "Isabel",
-      "lastName": "Bogisich",
-      "email": "isabel.bogisich31086@gmail.com",
-      "password": "Test@31086",
-      "confirmpassword": "Test@31086"
+      "firstName": "Eliseo",
+      "lastName": "Pfeffer",
+      "email": "eliseo.pfeffer45773@gmail.com",
+      "password": "Test@45773",
+      "confirmpassword": "Test@45773"
     }
   ]
 }

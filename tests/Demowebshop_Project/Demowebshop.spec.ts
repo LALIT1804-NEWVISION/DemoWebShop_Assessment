@@ -90,7 +90,7 @@ test("TC011 Apply Coupon Code", async ({ appAction }) => {
   await appAction.product.addToCart();
   await appAction.cart.openCart();
   const beforeTotal = await appAction.cart.getCartTotal();
-  await appAction.cart.applyCoupon("INVALIDCODE123");
+  await appAction.cart.applyCoupon(ProductData.couponCode);
   await appAction.cart.verifyCouponError();
   const afterTotal = await appAction.cart.getCartTotal();
   await appAction.cart.verifyTotalUnchanged(beforeTotal, afterTotal);
@@ -107,7 +107,7 @@ test("TC012 Product Sorting", async ({ appAction }) => {
 });
 
 test("TC013 Newsletter Subscription", async ({ appAction }) => {
-  await appAction.home.subscribeNewsletter("newsletter@test.com");
+  await appAction.home.subscribeNewsletter(LoginData.Users.ValidUser.email);
   await appAction.home.verifyNewsletterSuccess();
 });
 

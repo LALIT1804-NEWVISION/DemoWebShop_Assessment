@@ -34,19 +34,21 @@ export class RegisterationAction {
             email: `${firstName.toLowerCase()}.${lastName.toLowerCase()}${randomNumber}@gmail.com`,
             password: `Test@${randomNumber}`,
             confirmpassword: `Test@${randomNumber}`,
-        }
+        };
+        const existingUsers = Array.isArray(RegisterationData.generatedUserData)
+            ? RegisterationData.generatedUserData
+            : [];
+        let updatedUsers;
 
-        // Save generated user into JSON array
+        if (existingUsers.length >= 10) {
+            updatedUsers = [updatedUserData]; // fresh start
+        } else {
+            updatedUsers = [...existingUsers, updatedUserData];
+        }
         const updatedJsonData = {
             ...RegisterationData,
-            generatedUserData: [
-                ...(Array.isArray(RegisterationData.generatedUserData)
-                    ? RegisterationData.generatedUserData
-                    : []),
-                updatedUserData,
-            ],
+            generatedUserData: updatedUsers,
         };
-
         writeFileSync(
             "src/Testdata/registerationdata.json",
             JSON.stringify(updatedJsonData, null, 2)

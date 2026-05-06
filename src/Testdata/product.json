@@ -1,6 +1,7 @@
 {
   "searchProduct": "book",
-  "category" : "Books"
+  "category" : "Books",
+  "couponCode":"INVALIDCODE123"
 }
 
 
