@@ -1,5 +1,6 @@
 import { expect, Page } from "@playwright/test";
 import { CheckoutPage } from "../Pages/checkoutPage";
+import CheckoutData  from "../Testdata/checkout.json";
 
 export class CheckoutAction {
   checkoutPage: CheckoutPage;
@@ -21,11 +22,11 @@ export class CheckoutAction {
   }
 
   async fillBillingDetails() {
-    await this.checkoutPage.countryDropdown.selectOption("223");
-    await this.checkoutPage.cityInput.fill("New York");
-    await this.checkoutPage.addressInput.fill("123 Test Street");
-    await this.checkoutPage.zipInput.fill("10001");
-    await this.checkoutPage.phoneInput.fill("1234567890");
+    await this.checkoutPage.countryDropdown.selectOption(CheckoutData.billingDetails.countryId);
+    await this.checkoutPage.cityInput.fill(CheckoutData.billingDetails.city);
+    await this.checkoutPage.addressInput.fill(CheckoutData.billingDetails.address);
+    await this.checkoutPage.zipInput.fill(CheckoutData.billingDetails.zip);
+    await this.checkoutPage.phoneInput.fill(CheckoutData.billingDetails.phone);
   }
 
   async completeCheckoutFlow() {

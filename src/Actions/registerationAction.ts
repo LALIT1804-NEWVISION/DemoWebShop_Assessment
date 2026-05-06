@@ -34,7 +34,7 @@ export class RegisterationAction {
             email: `${firstName.toLowerCase()}.${lastName.toLowerCase()}${randomNumber}@gmail.com`,
             password: `Test@${randomNumber}`,
             confirmpassword: `Test@${randomNumber}`,
-        };
+        }
 
         // Save generated user into JSON array
         const updatedJsonData = {
@@ -48,7 +48,7 @@ export class RegisterationAction {
         };
 
         writeFileSync(
-            "src/Testdata/websitedata.json",
+            "src/Testdata/registerationdata.json",
             JSON.stringify(updatedJsonData, null, 2)
         );
 

@@ -10,7 +10,6 @@ export class ProductPage {
   readonly addToWishlistBtn: Locator;
   readonly sortDropdown: Locator;
   readonly productsName: Locator;
-  //readonly compareButtons: Locator;
   readonly successNotification: Locator;
   readonly compareTable: Locator;
   readonly cartCount: Locator;
@@ -27,7 +26,6 @@ export class ProductPage {
     this.addToWishlistBtn = page.locator("input[value='Add to wishlist']");
     this.sortDropdown = page.locator("#products-orderby");
     this.productsName = page.locator(".product-item .product-title a");
-    //this.compareButtons = page.locator(".add-to-compare-list-button");
     this.addtoCompareBtn = page.locator('//input[@value="Add to compare list"]');
     this.successNotification = page.locator(".bar-notification.success");
     this.compareTable = page.locator(".compare-products-table");
